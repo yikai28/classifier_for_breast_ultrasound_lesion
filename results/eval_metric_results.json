@@ -1,0 +1,42 @@
+{
+    "metrics": [
+        "oval",
+        "round",
+        "irregular",
+        "parallel",
+        "not_parallel"
+    ],
+    "TP": [
+        9,
+        0,
+        6,
+        13,
+        7
+    ],
+    "fp": [
+        5,
+        2,
+        3,
+        1,
+        2
+    ],
+    "fn": [
+        1,
+        4,
+        3,
+        2,
+        1
+    ],
+    "f1": [
+        0.75,
+        0.0,
+        0.67,
+        0.9,
+        0.82
+    ],
+    "shape acc": 0.65,
+    "ori acc": 0.87,
+    "average shape f1": 0.47,
+    "average ori f1": 0.86,
+    "average total": 0.67
+}
