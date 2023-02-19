@@ -123,52 +123,6 @@ if __name__ == '__main__':
 
 
 
-    # print(y_val[0], y_test[0])
-    # The usage for the data transformation
-    # transformed = data_prepare.transformations(image=X_train[0])
-    # cv2.imwrite('original.png',X_train[0])
-    # cv2.imwrite('transform.png',transformed["image"])
-    # print(X_train[0].shape, transformed["image"].shape)
-    # print(np.array_equal(X_train[0], transformed["image"]))
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-    # print(X_val[0].shape)
-    # print(len(y_train), len(y_val), len(y_test))
-    # print(np.sum(y_train,axis=0),np.sum(y_val,axis=0),np.sum(y_test,axis=0))
-    #['irregular', 'not_parallel', 'oval', 'parallel', 'round']
-    # oval - parallel
-    # y_all = [y_train, y_val, y_test]
-    # for y in y_all:
-    #     print(np.count_nonzero(np.all(y == [0, 0, 1, 1, 0], axis=1)))
-
-    #     # oval - non-parallel
-    #     print(np.count_nonzero(np.all(y == [0, 1, 1, 0, 0], axis=1)))
-
-    #     # round, parallel
-    #     print(np.count_nonzero(np.all(y == [0, 0, 0, 1, 1], axis=1)))
-
-    #     # round, non-parallel
-    #     print(np.count_nonzero(np.all(y == [0, 1, 0, 0, 1], axis=1)))
-
-    #     # irregular, parallel
-    #     print(np.count_nonzero(np.all(y == [1, 0, 0, 1, 0], axis=1)))
-
-    #     # irregular, non-parallel
-    #     print(np.count_nonzero(np.all(y == [1, 1, 0, 0, 0], axis=1)))
-
-    #     print('----------------------------------------------------')
 
 
 

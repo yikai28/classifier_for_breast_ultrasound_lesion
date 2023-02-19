@@ -166,11 +166,6 @@ class ConvNN(kt.HyperModel):
 			new_arr.append(new_row)
 		return new_arr
 
-	def unittest(self, X_val):
-		preprocessed_inputs = mobilenet_v2.preprocess_input(X_val)
-		print(np.amax(X_val), np.amin(X_val))
-		print(np.amax(preprocessed_inputs), np.amin(preprocessed_inputs))
-
 #Compute the macro soft F1-score as a cost (weighted 1 - soft-F1 across all labels).
 # Use probability values instead of binary predictions
 class WeightedMacroSoftF1(tf.keras.losses.Loss):
