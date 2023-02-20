@@ -76,7 +76,7 @@ e.g.
         "ori acc":  0.87,
         "average shape f1": 0.47,
         "average ori f1": 0.86,
-        "average total": 0.67
+        "average total f1": 0.67
 },
  ```
 
