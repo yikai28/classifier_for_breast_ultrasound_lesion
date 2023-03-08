@@ -56,7 +56,6 @@ You can specific the Hyperparameter you want to search on parameter_search funct
 [CUDA_VISIBLE_DEVICES=0] python main.py --mode parameter_search
 ```
 ## Test
-Download the best model to reproduce the result: https://drive.google.com/drive/folders/17dl2QDFl4W_OKjOF3X3d9vcftCu9hbpY?usp=sharing
 
 ```bash
 [CUDA_VISIBLE_DEVICES=0] python main.py --mode test
