@@ -1,4 +1,4 @@
-# TechTask - Building classifier for breast ultrasound lesion
+# Building classifier for breast ultrasound lesion
 
 Build “shape” and “orientation” feature classifiers for the breast ultrasound lesion image.
 
@@ -97,9 +97,7 @@ e.g.
 
 ## Contributing
 
-This repro is developed by Yikai Yang for the interview purpose.
-
-If you have any questions, please email to yangyikai28@gmail.com
+This repro is fully developed by Yikai Yang. If you have any questions, please email to yangyikai28@gmail.com
 
 ## License
 
